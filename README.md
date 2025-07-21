@@ -15,3 +15,25 @@
 *DESCRIPTION*: The primary objective of this project is to refactor an existing basic To-Do List API application, which was initially poorly structured and lacked modularity, to achieve better code readability, maintainability, scalability, and performance optimization.
 
 # OUTPUT BEFORE #
+    
+    "task": "Learn Node.js"
+
+    "message": "Task added"
+
+    "id": 1,
+    
+        "task": "Learn Node.js"
+
+# OUTPUT AFTER #
+
+"task": "Learn Refactoring"
+
+"message": "Task added"
+
+ "id": 1,
+
+        "task": "Learn Node.js"
+
+         "id": 2,
+         
+        "task": "Learn Refactoring"
